@@ -15,5 +15,9 @@ jobs:
       - name: List files
         run: ls -la
 
-      - run: python3 --version
+      - name: Installing requirements
+        run: pip install -r requirements.txt
+
+      - name: Checking versions
+        run: python3 --version && "CI works!"
 
