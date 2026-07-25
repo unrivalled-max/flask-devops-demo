@@ -1,4 +1,5 @@
-pandas
+pytest
+Pandas
 Boost
 Axios
 Requests

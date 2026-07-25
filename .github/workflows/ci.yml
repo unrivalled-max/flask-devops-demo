@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: ["develop"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+      - uses: actions/checkout@v4
+
+      - name: List files
+      - run: ls -la
+
+      - name: Intalling requirements
+        run: pip install -r requrements.txt
+
+      - name: Checking versions
+        run: python3 --version && echo "CI works"
