@@ -4,4 +4,3 @@
 
 # AKA Unrivaled
 
-### GG
