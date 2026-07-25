@@ -1,6 +1,4 @@
 pytest
-Pandas
 Boost
-Axios
 Requests
 Flask
