@@ -21,3 +21,8 @@ jobs:
       - name: Checking versions
         run: python3 --version && echo "CI works!"
 
+      - name: Pytest starts
+        run: pytest
+
+      - name: Building a container
+        run: docker build .
