@@ -11,6 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: ls -la
+      - name: List files
+        run: ls -la
 
       - run: python3 --version
+
